@@ -1,0 +1,10 @@
+user_ID = input("")
+temp=""
+for char in user_ID:
+    if char not in temp:
+        temp=temp+char
+
+if len(temp) % 2 == 0:
+    print("CHAT WITH HER!")
+else:
+    print("IGNORE HIM!")
